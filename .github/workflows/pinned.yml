@@ -1,0 +1,40 @@
+name: update pinned svg
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: install deps
+        run: pip install requests
+
+      - name: generate svg
+        env:
+          GH_USER: Rabb1tQ
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generate_pinned_svg.py
+
+      - name: commit svg
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+          git add pinned.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "update pinned svg"
+          git push
