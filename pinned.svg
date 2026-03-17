@@ -105,7 +105,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">0</text>
+            <text data-testid="stargazers" class="gray">1</text>
           </g>
         </g>
         
@@ -188,7 +188,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">0</text>
+            <text data-testid="stargazers" class="gray">1</text>
           </g>
         </g>
         
@@ -271,7 +271,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">24</text>
+            <text data-testid="stargazers" class="gray">27</text>
           </g>
         </g>
         
@@ -289,7 +289,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="forkcount" class="gray">8</text>
+            <text data-testid="forkcount" class="gray">9</text>
           </g>
         </g>
       </g>
@@ -437,7 +437,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">2</text>
+            <text data-testid="stargazers" class="gray">7</text>
           </g>
         </g>
         
@@ -455,7 +455,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="forkcount" class="gray">1</text>
+            <text data-testid="forkcount" class="gray">3</text>
           </g>
         </g>
       </g>
@@ -520,7 +520,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">2</text>
+            <text data-testid="stargazers" class="gray">3</text>
           </g>
         </g>
         
@@ -538,7 +538,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="forkcount" class="gray">1</text>
+            <text data-testid="forkcount" class="gray">3</text>
           </g>
         </g>
       </g>
