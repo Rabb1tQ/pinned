@@ -105,7 +105,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">3</text>
+            <text data-testid="stargazers" class="gray">4</text>
           </g>
         </g>
         
@@ -188,7 +188,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">2</text>
+            <text data-testid="stargazers" class="gray">3</text>
           </g>
         </g>
         
@@ -455,7 +455,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="forkcount" class="gray">4</text>
+            <text data-testid="forkcount" class="gray">5</text>
           </g>
         </g>
       </g>
