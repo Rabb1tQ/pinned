@@ -271,7 +271,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="stargazers" class="gray">28</text>
+            <text data-testid="stargazers" class="gray">29</text>
           </g>
         </g>
         
