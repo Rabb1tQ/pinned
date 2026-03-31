@@ -538,7 +538,7 @@
       </svg>
           </g>
           <g transform="translate(20, 0)">
-            <text data-testid="forkcount" class="gray">3</text>
+            <text data-testid="forkcount" class="gray">4</text>
           </g>
         </g>
       </g>
